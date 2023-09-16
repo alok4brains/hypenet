@@ -1,0 +1,908 @@
+.section1 {
+  width: 100vw;
+  background-color: #e32526;
+  height: 2.5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navContainer {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  padding: 0vw 4vw;
+  box-sizing: border-box;
+}
+.logoBox {
+  width: 25vw;
+  display: flex;
+  justify-content: center;
+}
+.logo {
+  width: 15vw;
+}
+.logo2 {
+  width: 20vw;
+}
+
+.blogBox {
+  background-color: #ffdede;
+  font-size: 1.11vw;
+  width: 5.5vw;
+  padding: 0.2vw 2vw;
+  box-sizing: border-box;
+  border-radius: 1vw;
+  height: 1.55vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+}
+.section2 {
+  width: 100vw;
+  background-color: #e32526;
+  border-top: 4.5px solid #feebdd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section2 .contentContainer {
+  width: 90vw;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 4.5px solid #feebdd;
+  margin-top: 5vw;
+  align-items: center;
+}
+.section2 .contentContainer .leftImage {
+  width: 30vw;
+  height: auto;
+  border-top-right-radius: 5vw;
+  border-top-left-radius: 5vw;
+}
+.section2 .contentContainer .rightContainer {
+  position: relative;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 50vw;
+  height: 25vw;
+}
+.section2 .contentContainer .rightContainer .header {
+  width: 30vw;
+}
+.section2 .contentContainer .rightContainer .header h2 {
+  font-size: 3.5vw;
+  color: #ffdede;
+  font-weight: 600;
+}
+.section2 .contentContainer .rightContainer .header p {
+  margin-top: 2vw;
+  font-size: 2.19vw;
+  color: #fac4c5;
+}
+.section2 .contentContainer .rightContainer .topLftImg {
+  width: 50vw;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.section2 .contentContainer .bottmRightImg {
+  width: 5vw;
+  height: auto;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.section3 {
+  width: 100vw;
+}
+.accordianBox {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.accordion-item.active {
+  max-height: 35vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0vw;
+  left: 0;
+}
+
+.section3 .header h2 {
+  text-align: center;
+  color: #feebdd;
+
+  font-size: 4vw;
+  padding: 2.5vw;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  position: relative;
+}
+
+.headerContainer {
+  min-height: 8vw;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column; /* This makes sure content stacks from bottom to top */
+  align-items: center;
+}
+/* .digitalContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+} */
+
+.open .digitalContainer {
+  animation: slideIn 0.7s ease-in-out;
+  background: #e32526;
+}
+
+@keyframes slideIn {
+  0% {
+    max-height: 0;
+    opacity: 1;
+  }
+  100% {
+    max-height: 50vw; /* Adjust to your preferred maximum height */
+    opacity: 1;
+  }
+}
+
+.open2 .digitalContainer2 {
+  animation: slideIn 0.7s ease-in-out;
+  background: #feebdd;
+}
+
+@keyframes slideIn {
+  0% {
+    max-height: 0;
+    opacity: 1;
+  }
+  100% {
+    max-height: 50vw; /* Adjust to your preferred maximum height */
+    opacity: 1;
+  }
+}
+
+.logoConatiner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80vw;
+  margin-top: 3vw;
+}
+.logoImage {
+  width: 5vw;
+  height: auto;
+}
+.logoTxt > p {
+  font-size: 1vw;
+  font-weight: 500;
+  color: #feebdd;
+  margin-top: 1vw;
+}
+.imgTxtContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logoBanner {
+  width: 90vw;
+  height: auto;
+  margin-top: 4vw;
+}
+
+.section3 .header2 h2 {
+  text-align: center;
+  color: #e32526;
+  font-size: 4vw;
+  padding: 2.5vw;
+}
+.header2Container {
+  max-height: 10vw;
+  overflow: hidden;
+}
+
+.header2Container.open {
+  max-height: 75vw;
+  transition: max-height 3s ease;
+}
+
+.logoConatiner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60vw;
+  margin-top: 3vw;
+}
+/* .logoTxt > p {
+  font-size: 1vw;
+  font-weight: 500;
+  color: #e32526;
+} */
+.logoBanner {
+  width: 90vw;
+  height: auto;
+  margin-top: 4vw;
+}
+
+/* ================ */
+
+/* .section3 .header2 {
+  width: 100%;
+  background-color: #feebdd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  position: relative;
+  top: 0;
+} */
+.section3 .header h2 {
+  text-align: center;
+  color: #feebdd;
+
+  font-size: 3vw;
+  padding: 2.5vw;
+}
+/* .digitalContainer2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-height: 30vw;
+  transition: max-height 1s ease;
+  background:  #feebdd;
+} */
+/* .headerContainer {
+  max-height: 10vw;
+  overflow: hidden;
+} */
+/* .digitalContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-height: 30vw;
+  transition: max-height 1s ease-in-out;
+  background: #e32526;
+} */
+/* .headerContainer.open {
+  max-height: 36vw;
+  transition: max-height 1s ease;
+  background: #e32526;
+  width: 100vw;
+} */
+
+/* .headerContainer.open2 {
+  max-height: 36vw;
+  transition: max-height 1s ease-in-out;
+  position: absolute;
+  bottom: 0vw;
+  z-index: 1;
+  background: #feebdd;
+
+  width: 100vw;
+} */
+
+/* Add these CSS rules to your existing stylesheet */
+
+/* Styles for the first accordion section (header) */
+.section3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.header h2,
+.header2 h2 {
+  margin: 0;
+
+  text-align: center;
+  color: white;
+}
+
+.header {
+  background-color: #e32526;
+}
+
+.header2 {
+  background-color: #feebdd;
+}
+
+.digitalContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  /* position: absolute; */
+  bottom: 0;
+  transition: max-height 0.5s ease-in-out;
+  background: #e32526;
+  z-index: 1;
+}
+
+.headerContainer.open2 {
+  /* max-height: 36vw; */
+  transition: min-height 1s ease-in-out;
+
+  width: 100%;
+
+  background: #feebdd;
+}
+
+.digitalContainer2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  transition: max-height 1s ease;
+  background: #feebdd;
+  bottom: 0;
+  cursor: pointer;
+  z-index: 1;
+}
+
+/* Rest of your CSS */
+
+/* Rest of your CSS */
+
+/* Rest of your CSS */
+
+/* Rest of your CSS */
+
+/* Rest of your CSS */
+
+.logoConatiner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80vw;
+  margin-top: 3vw;
+}
+.logoImage {
+  width: 3.5vw;
+  height: auto;
+}
+.logoTxt2 > p {
+  font-size: 1vw;
+  font-weight: 500;
+  color: #e32526;
+  margin-top: 1.5vw;
+}
+.imgTxtContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logoBanner {
+  width: 90vw;
+  height: auto;
+  margin-top: 4vw;
+}
+
+.section3 .header2 h2 {
+  text-align: center;
+  color: #e32526;
+  font-size: 3vw;
+  padding: 2.5vw;
+}
+.header2Container {
+  min-height: 10vw;
+  overflow: hidden;
+}
+
+/* .header2Container.open {
+  max-height: 65vw;
+  transition: max-height 3s ease;
+} */
+
+.logoConatiner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 65vw;
+  margin-top: 1.5vw;
+}
+/* .logoTxt > p {
+    font-size: 1vw;
+    font-weight: 500;
+    color: #e32526;
+  } */
+.logoBanner {
+  width: 90vw;
+  height: auto;
+  margin-top: 1.5vw;
+}
+.section6 {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e32526;
+  padding-bottom: 5vw;
+}
+.section6 .footerContainer {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 3vw 3vw;
+}
+.section6 .footerContainer .menuContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 4vw;
+
+  width: 32vw;
+}
+.section6 .footerContainer .menuContainer h3 {
+  color: #fee9dc;
+  font-size: 1.77vw;
+  font-weight: 500;
+}
+
+.section6 .footerContainer .menuContainer p {
+  color: #fee9dc;
+  font-size: 1.5vw;
+  opacity: 0.7;
+  font-weight: 500;
+  cursor: pointer;
+}
+.section6 .footerContainer .menuContainer .mailContainern > p {
+  color: #fee9dc;
+  font-size: 1.8vw;
+
+  font-weight: 500;
+}
+
+.inputContainer {
+  background: #fee9dc;
+  padding: 1.2vw;
+  height: 13vw;
+  box-sizing: border-box;
+  border-radius: 1.6vw;
+  width: 30vw;
+  margin-top: 1.5vw;
+  position: relative;
+  top: 0;
+}
+.inputContainer > input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 1.33vw;
+}
+
+.inputContainer > input::placeholder {
+  font-size: 1.6vw;
+  color: #e32526;
+  opacity: 1;
+  font-weight: 500;
+}
+.inputContainer button {
+  position: absolute;
+  bottom: 3vw;
+  right: 2vw;
+
+  background: #e41e25;
+  color: #fff;
+  padding: 0.99vw;
+  font-size: 1.3vw;
+  border: none;
+  border-radius: 2vw;
+  width: 10vw;
+  opacity: 0.7;
+  cursor: pointer;
+}
+.section6 .footerContainer .menuContainer2 {
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+
+  width: 32vw;
+}
+.section6 .footerContainer .menuContainer2 h3 {
+  color: #fee9dc;
+  font-size: 1.77vw;
+  font-weight: 500;
+}
+
+.section6 .footerContainer .menuContainer2 p {
+  color: #fee9dc;
+  font-size: 1.5vw;
+  opacity: 0.7;
+  font-weight: 500;
+  margin-left: 1vw;
+}
+
+.section6 .footerContainer .menuContainer2 .mediaContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 10vw;
+  margin-top: 3.5vw;
+  margin-left: 3vw;
+}
+.mediaImage {
+  width: 3.7vw;
+  height: auto;
+}
+.section6Para {
+  font-size: 1.8vw;
+  margin-top: 2vw;
+  opacity: 1;
+}
+
+.iconContaner {
+  display: flex;
+
+  width: 25vw;
+}
+.iconImage {
+  width: 2vw;
+  height: auto;
+}
+.section6 .footerContainer .menuContainer3 {
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+  width: 35vw;
+}
+
+.section6 .footerContainer .menuContainer3 h3 {
+  color: #fee9dc;
+  font-size: 1.77vw;
+  font-weight: 500;
+}
+
+.section6 .footerContainer .menuContainer3 .inputContainer2 {
+  width: 100%;
+  border: 2px solid #fff;
+  padding: 1vw;
+  border-radius: 1vw;
+  margin-bottom: 1.7vw;
+}
+
+.section6 .footerContainer .menuContainer3 .inputContainer2 input {
+  width: 100%;
+  outline: none;
+  border: none;
+  font-size: 1.33vw;
+  background: transparent;
+  color: #ffff;
+}
+.textAreaContainer {
+  width: 100%;
+  background: #fee9dc;
+  border-radius: 1.5vw;
+  box-sizing: border-box;
+  padding: 2vw;
+  font-family: inherit;
+  position: relative;
+  top: 0;
+}
+.textAreaContainer textarea {
+  width: 100%;
+  font-size: 1.8vw;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #e41e25;
+}
+.textAreaContainer textarea::placeholder {
+  font-weight: 500;
+  color: #e41e25;
+}
+.textAreaContainer button {
+  position: absolute;
+  bottom: 3vw;
+  right: 2vw;
+
+  background: #e41e25;
+  color: #fff;
+  padding: 0.99vw;
+  font-size: 1.3vw;
+  border: none;
+  border-radius: 2vw;
+  width: 10vw;
+  opacity: 0.7;
+  cursor: pointer;
+}
+.section7 {
+  width: 100vw;
+  background-color: #e32526;
+}
+
+.section7 .banner {
+  width: 100%;
+  height: auto;
+}
+
+@media only screen and (orientation: portrait) {
+  .section2 {
+    width: 100vw;
+    background-color: #e32526;
+    border-top: 4.5px solid #feebdd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section2 .contentContainer {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5vw;
+    align-items: center;
+    flex-direction: column;
+    border: none;
+  }
+  .section2 .contentContainer .leftImage {
+    width: 90vw;
+    height: auto;
+    border-top-right-radius: 15vw;
+    border-top-left-radius: 15vw;
+    order: 2;
+    margin-top: 3vw;
+  }
+  .section2 .contentContainer .rightContainer {
+    position: relative;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    height: 45vw;
+    text-align: center;
+  }
+  .section2 .contentContainer .rightContainer .header {
+    width: 100%;
+  }
+  .section2 .contentContainer .rightContainer .header h2 {
+    font-size: 8vw;
+    color: #ffdede;
+    font-weight: 600;
+  }
+  .section2 .contentContainer .rightContainer .header p {
+    margin-top: 2vw;
+    font-size: 2.19vw;
+    color: #fac4c5;
+  }
+  .section2 .contentContainer .rightContainer .topLftImg {
+    width: 90vw;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .section2 .contentContainer .bottmRightImg {
+    width: 12vw;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+}
+
+@media only screen and (orientation: portrait) {
+  .section3 {
+    width: 100vw;
+  }
+  .section3 .header {
+    width: 100%;
+    background-color: #e32526;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    position: relative;
+    top: 0;
+    padding: 3vw;
+  }
+  .section3 .header h2 {
+    text-align: center;
+    color: #feebdd;
+
+    font-size: 4vw;
+    padding: 2.5vw;
+  }
+  /* .headerContainer {
+    max-height: 10vw;
+    overflow: hidden;
+  } */
+  .headerContainer {
+    max-height: 0vw;
+    overflow: hidden;
+  }
+  .digitalContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .headerContainer.open {
+    max-height: 60vw;
+
+    position: static;
+  }
+
+  .logoConatiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw;
+    margin-top: 3vw;
+  }
+  .logoImage {
+    width: 5vw;
+    height: auto;
+  }
+  .logoTxt > p {
+    font-size: 1.9vw;
+    font-weight: 500;
+    color: #feebdd;
+    margin-top: 1.5vw;
+  }
+  .imgTxtContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .logoBanner {
+    width: 90vw;
+    height: auto;
+    margin-top: 4vw;
+  }
+
+  .section3 .header2 h2 {
+    text-align: center;
+    color: #e32526;
+    font-size: 4vw;
+    padding: 2.5vw;
+  }
+  .header2Container {
+    max-height: 10vw;
+    overflow: hidden;
+  }
+
+  .header2Container.open {
+    max-height: 75vw;
+    transition: max-height 3s ease;
+  }
+
+  .logoConatiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60vw;
+    margin-top: 3vw;
+  }
+
+  .logoBanner {
+    width: 90vw;
+    height: auto;
+    margin-top: 4vw;
+  }
+
+  /* ================ */
+
+  .section3 .header2 {
+    width: 100%;
+    background-color: #feebdd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 2.5vw;
+  }
+  .section3 .header h2 {
+    text-align: center;
+    color: #feebdd;
+
+    font-size: 6vw;
+    padding: 2.5vw;
+  }
+  .headerContainer {
+    max-height: 10vw;
+    overflow: hidden;
+  }
+  .digitalContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .headerContainer.open {
+    max-height: 65vw;
+    transition: max-height 3s ease;
+  }
+
+  .logoConatiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw;
+    margin-top: 3vw;
+  }
+  .logoImage {
+    width: 9vw;
+    height: auto;
+  }
+  .logoTxt2 > p {
+    font-size: 2.2vw;
+    font-weight: 500;
+    color: #e32526;
+    margin-top: 1.5vw;
+  }
+  .imgTxtContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .logoBanner {
+    width: 90vw;
+    height: auto;
+    margin-top: 4vw;
+  }
+
+  .section3 .header2 h2 {
+    text-align: center;
+    color: #e32526;
+    font-size: 6vw;
+    padding: 2.5vw;
+  }
+  .header2Container {
+    max-height: 10vw;
+    overflow: hidden;
+  }
+
+  .header2Container.open {
+    max-height: 65vw;
+    transition: max-height 3s ease;
+  }
+
+  .logoConatiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90vw;
+    margin-top: 3vw;
+  }
+
+  .logoBanner {
+    width: 90vw;
+    height: auto;
+    margin-top: 4vw;
+  }
+}
+
+@media only screen and (orientation: portrait) {
+}
+
+@media only screen and (orientation: portrait) {
+}

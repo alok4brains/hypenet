@@ -1,0 +1,428 @@
+.section6 {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e32526;
+  padding-bottom: 5vw;
+}
+.section6 .footerContainer {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 3vw 3vw;
+}
+.section6 .footerContainer .menuContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 4vw;
+
+  width: 32vw;
+}
+.section6 .footerContainer .menuContainer h3 {
+  color: #fee9dc;
+  font-size: 1.77vw;
+  font-weight: 500;
+}
+
+.section6 .footerContainer .menuContainer p {
+  color: #fee9dc;
+  font-size: 1.5vw;
+  opacity: 0.7;
+  font-weight: 500;
+  cursor: pointer;
+}
+.section6 .footerContainer .menuContainer .mailContainern > p {
+  color: #fee9dc;
+  font-size: 1.8vw;
+
+  font-weight: 500;
+}
+
+.inputContainer {
+  background: #fee9dc;
+  padding: 1.2vw;
+  height: 13vw;
+  box-sizing: border-box;
+  border-radius: 1.6vw;
+  width: 30vw;
+  margin-top: 1.5vw;
+  position: relative;
+  top: 0;
+}
+.inputContainer > input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 1.33vw;
+}
+
+.inputContainer > input::placeholder {
+  font-size: 1.6vw;
+  color: #e32526;
+  opacity: 1;
+  font-weight: 500;
+}
+.inputContainer button {
+  position: absolute;
+  bottom: 3vw;
+  right: 2vw;
+
+  background: #e41e25;
+  color: #fff;
+  padding: 0.99vw;
+  font-size: 1.3vw;
+  border: none;
+  border-radius: 2vw;
+  width: 10vw;
+  opacity: 0.7;
+  cursor: pointer;
+}
+.section6 .footerContainer .menuContainer2 {
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+
+  width: 32vw;
+}
+.section6 .footerContainer .menuContainer2 h3 {
+  color: #fee9dc;
+  font-size: 1.77vw;
+  font-weight: 500;
+}
+
+.section6 .footerContainer .menuContainer2 p {
+  color: #fee9dc;
+  font-size: 1.5vw;
+  opacity: 0.7;
+  font-weight: 500;
+  margin-left: 1vw;
+}
+
+.section6 .footerContainer .menuContainer2 .mediaContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 10vw;
+  margin-top: 3.5vw;
+  margin-left: 3vw;
+}
+.mediaImage {
+  width: 3.7vw;
+  height: auto;
+}
+.section6Para {
+  font-size: 1.8vw;
+  margin-top: 2vw;
+  opacity: 1;
+}
+
+.iconContaner {
+  display: flex;
+
+  width: 25vw;
+}
+.iconImage {
+  width: 2vw;
+  height: auto;
+}
+.section6 .footerContainer .menuContainer3 {
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+  width: 35vw;
+}
+
+.section6 .footerContainer .menuContainer3 h3 {
+  color: #fee9dc;
+  font-size: 1.77vw;
+  font-weight: 500;
+}
+
+.section6 .footerContainer .menuContainer3 .inputContainer2 {
+  width: 100%;
+  border: 2px solid #fff;
+  padding: 1vw;
+  border-radius: 1vw;
+  margin-bottom: 1.7vw;
+}
+
+.section6 .footerContainer .menuContainer3 .inputContainer2 input {
+  width: 100%;
+  outline: none;
+  border: none;
+  font-size: 1.33vw;
+  background: transparent;
+  color: #ffff;
+}
+.textAreaContainer {
+  width: 100%;
+  background: #fee9dc;
+  border-radius: 1.5vw;
+  box-sizing: border-box;
+  padding: 2vw;
+  font-family: inherit;
+  position: relative;
+  top: 0;
+}
+.textAreaContainer textarea {
+  width: 100%;
+  font-size: 1.8vw;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #e41e25;
+}
+.textAreaContainer textarea::placeholder {
+  font-weight: 500;
+  color: #e41e25;
+}
+.textAreaContainer button {
+  position: absolute;
+  bottom: 3vw;
+  right: 2vw;
+
+  background: #e41e25;
+  color: #fff;
+  padding: 0.99vw;
+  font-size: 1.3vw;
+  border: none;
+  border-radius: 2vw;
+  width: 10vw;
+  opacity: 0.7;
+  cursor: pointer;
+}
+.section7 {
+  width: 100vw;
+  background-color: #e32526;
+}
+
+.section7 .banner {
+  width: 100%;
+  height: auto;
+}
+
+@media only screen and (orientation: portrait) {
+  .section6 {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e32526;
+    padding-bottom: 5vw;
+  }
+  .section6 .footerContainer {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 10vw 3vw;
+    flex-direction: column;
+    align-items: center;
+    gap: 3vw;
+  }
+  .section6 .footerContainer .menuContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 4vw;
+    order: 3;
+    width: 80vw;
+    justify-content: center;
+    margin-top: 5vw;
+  }
+  .section6 .footerContainer .menuContainer h3 {
+    color: #fee9dc;
+    font-size: 4.5vw;
+    font-weight: 500;
+  }
+
+  .section6 .footerContainer .menuContainer p {
+    color: #fee9dc;
+    font-size: 4vw;
+    opacity: 0.7;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .section6 .footerContainer .menuContainer .mailContainern > p {
+    color: #fee9dc;
+    font-size: 1.8vw;
+
+    font-weight: 500;
+  }
+
+  .section6 .footerContainer .menuContainer .mailContainern form {
+    width: 100%;
+  }
+
+  .inputContainer {
+    background: #fee9dc;
+    padding: 2.2vw;
+    height: 30vw;
+    box-sizing: border-box;
+    border-radius: 1.6vw;
+    width: 100%;
+    margin-top: 2.5vw;
+    position: relative;
+    top: 0;
+  }
+  .inputContainer > input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 4vw;
+  }
+
+  .inputContainer > input::placeholder {
+    font-size: 4vw;
+    color: #e32526;
+    opacity: 1;
+    font-weight: 500;
+  }
+  .inputContainer button {
+    position: absolute;
+    bottom: 3vw;
+    right: 6vw;
+    background: #e41e25;
+    color: #fff;
+    padding: 0.99vw;
+    font-size: 3.5vw;
+    border: none;
+    border-radius: 2vw;
+    width: 20vw;
+    opacity: 0.7;
+    cursor: pointer;
+    cursor: pointer;
+  }
+  .section6 .footerContainer .menuContainer2 {
+    display: flex;
+    flex-direction: column;
+    gap: 4vw;
+    order: 2;
+    width: 80vw;
+    justify-content: center;
+    margin-top: 5vw;
+  }
+  .section6 .footerContainer .menuContainer2 h3 {
+    color: #fee9dc;
+    font-size: 4.5vw;
+    font-weight: 500;
+  }
+
+  .section6 .footerContainer .menuContainer2 p {
+    color: #fee9dc;
+    font-size: 4vw;
+    opacity: 0.7;
+    font-weight: 500;
+    margin-left: 1vw;
+  }
+
+  .section6 .footerContainer .menuContainer2 .mediaContainer {
+    display: none;
+  }
+  .mediaImage {
+    width: 3.7vw;
+    height: auto;
+  }
+  .section6Para {
+    font-size: 1.8vw;
+    margin-top: 2vw;
+    opacity: 1;
+  }
+
+  .iconContaner {
+    display: flex;
+
+    width: 100%;
+  }
+  .iconImage {
+    width: 4.5vw;
+    height: auto;
+  }
+  .section6 .footerContainer .menuContainer3 {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    width: 80vw;
+    justify-content: center;
+  }
+
+  .section6 .footerContainer .menuContainer3 h3 {
+    color: #fee9dc;
+    font-size: 3.5vw;
+    font-weight: 500;
+  }
+  .section6 .footerContainer .menuContainer3 form {
+    width: 100%;
+  }
+
+  .section6 .footerContainer .menuContainer3 .inputContainer2 {
+    width: 100%;
+    border: 2px solid #fff;
+    padding: 2vw;
+    border-radius: 2.5vw;
+    margin-bottom: 1.7vw;
+  }
+
+  .section6 .footerContainer .menuContainer3 .inputContainer2 input {
+    width: 100%;
+    outline: none;
+    border: none;
+    font-size: 4vw;
+    background: transparent;
+    color: #ffff;
+  }
+  .section6
+    .footerContainer
+    .menuContainer3
+    .inputContainer2
+    input::placeholder {
+    color: #fee9dc;
+  }
+  .textAreaContainer {
+    width: 100%;
+    background: #fee9dc;
+    border-radius: 2.5vw;
+    box-sizing: border-box;
+    padding: 2vw;
+    font-family: inherit;
+    position: relative;
+    top: 0;
+  }
+  .textAreaContainer textarea {
+    width: 100%;
+    font-size: 4vw;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #e41e25;
+  }
+  .textAreaContainer textarea::placeholder {
+    font-weight: 500;
+    color: #e41e25;
+  }
+  .textAreaContainer button {
+    position: absolute;
+    bottom: 3vw;
+    right: 6vw;
+    background: #e41e25;
+    color: #fff;
+    padding: 0.99vw;
+    font-size: 3.5vw;
+    border: none;
+    border-radius: 2vw;
+    width: 20vw;
+    opacity: 0.7;
+    cursor: pointer;
+  }
+  .section7 {
+    width: 100vw;
+    background-color: #e32526;
+  }
+
+  .section7 .banner {
+    width: 100%;
+    height: auto;
+  }
+}
