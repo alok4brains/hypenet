@@ -17,6 +17,7 @@
   width: 17vw;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .logo {
   width: 3.5vw;
@@ -597,6 +598,7 @@
     width: 60vw;
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
   .logo {
     width: 13vw;
@@ -607,7 +609,7 @@
     width: 30vw;
     height: auto;
   }
-  
+
   .blogBox {
     background-color: #ffdede;
     font-size: 4vw;
@@ -621,26 +623,26 @@
     align-items: center;
     font-weight: 500;
     cursor: pointer;
-    
-    color:#e32526;
+
+    color: #e32526;
   }
   .menuBox {
     position: absolute;
-  top: 10vw;
-  left: 0vw;
-  background-color: #e32526;
-  box-sizing: border-box;
-  padding: 2vw;
-  display: flex;
-  flex-direction: column;
+    top: 10vw;
+    left: 0vw;
+    background-color: #e32526;
+    box-sizing: border-box;
+    padding: 2vw;
+    display: flex;
+    flex-direction: column;
 
-  gap: 7vw;
-  z-index: 1;
+    gap: 7vw;
+    z-index: 1;
 
-  width: 60vw;
-  cursor: pointer;
+    width: 60vw;
+    cursor: pointer;
   }
-  
+
   .menuBox p {
     font-size: 5vw;
     font-weight: 500;
@@ -926,7 +928,6 @@
     font-size: 4.5vw;
     font-weight: 500;
   }
-
 
   .section6 .footerContainer .menuContainer p {
     color: #fee9dc;

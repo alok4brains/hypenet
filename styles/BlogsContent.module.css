@@ -17,6 +17,7 @@
   width: 25vw;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .logo {
   width: 15vw;

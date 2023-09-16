@@ -17,6 +17,7 @@
   width: 25vw;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .logo {
   width: 15vw;
@@ -416,7 +417,6 @@
     box-sizing: border-box;
     padding: 2vw 0vw 5vw;
     background-color: #feebdd;
-    
   }
   .section3 .listContainer {
     width: 100vw;
@@ -429,7 +429,7 @@
     background-color: #e32526;
     padding: 2vw;
   }
-  
+
   .section3 .listContainer h2 {
     color: #ffff;
     font-size: 6.4vw;

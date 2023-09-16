@@ -22,6 +22,7 @@
   width: 3.5vw;
   height: auto;
   cursor: pointer;
+  align-items: center;
 }
 .logo2 {
   width: 10vw;
@@ -43,26 +44,26 @@
   cursor: pointer;
 }
 .menuBox {
-    position: absolute;
-    top: 3vw;
-    left: 3vw;
-    background-color: #e32526;
-    box-sizing: border-box;
-    padding: 2vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1.5vw;
-    z-index: 1;
-    opacity: 0.8;
-  }
-  
-  .menuBox p {
-    font-size: 1.2vw;
-    font-weight: 500;
-    color: #fee9dc;
-    cursor: pointer;
-  }
+  position: absolute;
+  top: 3vw;
+  left: 3vw;
+  background-color: #e32526;
+  box-sizing: border-box;
+  padding: 2vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5vw;
+  z-index: 1;
+  opacity: 0.8;
+}
+
+.menuBox p {
+  font-size: 1.2vw;
+  font-weight: 500;
+  color: #fee9dc;
+  cursor: pointer;
+}
 @media only screen and (orientation: portrait) {
   .section1 {
     width: 100vw;
@@ -83,6 +84,7 @@
     width: 60vw;
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
   .logo {
     width: 13vw;

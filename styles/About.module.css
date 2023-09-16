@@ -17,6 +17,7 @@
   width: 25vw;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .logo {
   width: 15vw;
@@ -516,7 +517,6 @@
 .verticalLine {
   height: 30vw;
   width: 1.5vw;
- 
 }
 .section7HeadingBox {
   width: 40vw;
@@ -1100,7 +1100,6 @@
     color: #fee9dc;
     font-size: 3.5vw;
   }
-
 }
 
 @media only screen and (orientation: portrait) {
@@ -1113,7 +1112,7 @@
     flex-direction: column;
     padding: 3vw;
   }
-  
+
   .section8 h2 {
     color: #fee9dc;
     font-size: 7vw;
@@ -1121,7 +1120,7 @@
     font-weight: 500;
   }
   .line {
-   display: none;
+    display: none;
   }
   .section8Container {
     background-color: #fee9dc;
@@ -1163,7 +1162,7 @@
     width: 100vw;
     background-color: #e32526;
   }
-  
+
   .section7 h2 {
     font-size: 7vw;
     color: #fee9dc;
@@ -1184,7 +1183,7 @@
     display: flex;
     justify-content: space-between;
   }
-  
+
   .imgLogo {
     width: 30vw;
     height: auto;
@@ -1201,7 +1200,7 @@
     font-size: 4vw;
     color: #fee9dc;
   }
-  
+
   .section7HeadingBox p {
     font-size: 3.2vw;
     color: #fee9dc;
@@ -1229,7 +1228,8 @@
   }
 }
 
-@media only screen and (orientation: portrait) {}
+@media only screen and (orientation: portrait) {
+}
 
 @media only screen and (orientation: landscape) {
   .mobHeader {
